@@ -76,11 +76,11 @@ elif page == "📊 Price Predictor":
 
         # Dynamic Image Selection
         city_images = {
-            "Colombo": r"C:/Users/Kushini Kasunthara/Downloads/House Price App/colombo.jpg",
-            "Kandy": r"C:/Users/Kushini Kasunthara/Downloads/House Price App/kandy.jpg",
-            "Galle": r"C:/Users/Kushini Kasunthara/Downloads/House Price App/galle.webp",
-	    "Gampaha": r"C:/Users/Kushini Kasunthara/Downloads/House Price App/Gampaha.webp",
-	    "Kurunagala": r"C:/Users/Kushini Kasunthara/Downloads/House Price App/kuru.jpg"}
+	    "Colombo": "colombo.jpg",
+            "Kandy": "kandy.jpg",
+            "Galle": "galle.webp",
+	    "Gampaha": "Gampaha.webp",
+	    "Kurunagala": "kuru.jpg"}
 
         if city in city_images:
             st.image(city_images[city], caption=f"Beautiful {city}", width=400)
